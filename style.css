@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: rgb(4, 4, 69);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head_left img {
+    width: 100px;
+    border: 1px solid rgb(4, 4, 69);
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.head_right li {
+    list-style-type: none;
+    float: left;
+}
+
+.head_right a {
+    text-decoration-line: none;
+    color: white;
+    margin-right: 20px;
+}
+
+.secondHeader {
+    background-color: rgb(4, 4, 69);
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding-bottom: 50px;
+}
+
+.left_side {
+    float: left;
+    color: white;
+    margin: 10px;
+    
+}
+
+.right_side {
+    float: left;
+    margin: 10px;
+}
+
+.right_side img {
+    height: 250px;
+}
+
+.left_side button {
+    background-color: blue;
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+    border: none;
+    border-radius: 15px;
+}
+
+.randomInfo h2{
+    text-align: center;
+}
+
+.randomInfo img {
+    width: 250px;
+    height: 150px;
+    border: 2px solid red;
+    border-radius: 15px;
+}
+
+.randomInfo p {
+    text-align: center;
+}
+
+.randomInfo .container .pic_container {
+    margin-top: 50px;
+   display: inline-block;
+   margin-left: 80px;
+   margin-bottom: 50px;
+}
+
+.fav_quote {
+    background-color: lightgray;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+.fav_quote #quote {
+    font-size: 36px;
+    font-family: light italic;
+    color: #1F2937;
+}
+.fav_quote #person {
+    margin-right: 500px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.callToAction .action_container {
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 300px;
+}
+
+.callToAction .action_container button {
+    color: white;
+    background: blue;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 10px 30px;
+}
+
+.callToAction .action_container .left_bigger h3 {
+    color: white;
+
+}
+
+.callToAction .action_container .left_bigger p {
+    color: white;
+}
+
+footer {
+    text-align: center;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: navy;
+    line-height: 80px;
+    color: white;
+}
